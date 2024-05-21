@@ -1,38 +1,113 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Hmain{
+  height: 10vh;
+  background-color: black;
+  color: white;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.heading{
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
 }
 
-.App-link {
-  color: #61dafb;
+.mainn{
+  min-height: 100vh;
+  position: relative;
+  
+}
+.money{
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  gap: 50px;
+ 
+}
+.hand{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+  font-weight: 800;
+  padding: 10px;
+  margin-bottom: 5px;
+  transition: all 0.5s ease-in;
+  box-shadow: 2px 2px 2px #dedede;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.moneyabs{
+  position: absolute;
+  width: 300px;
+  border: 2px solid #dedede;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300px;
+  background-color: white;
+  box-shadow: 2px 2px 2px #dedede
+  
+}
+.mains{
+  display: flex;
+  justify-content: center;
+  
+}
+.input{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.input{
+  width: 80%;
+  margin-bottom: 20px;
+  padding: 8px;
+  border-radius: 5px;
+  font: caption;
+}
+.btn{
+  width: 80%;
+  background-color: green;
+  font-weight: 600;
+  padding: 5px;
+  border-radius: 5px;
+  font-family:  sans-serif;
+  
+}
+.close{
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+}
+.transactions{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  gap: 5px;
+  
+}
+.transac{
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ margin-top: 5px;
+ padding: 10px;
+ border-radius: 5px;
+ 
 }
